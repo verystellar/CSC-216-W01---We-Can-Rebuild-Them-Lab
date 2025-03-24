@@ -14,7 +14,7 @@ public class Main {
         tree.insert(5);
         tree.insert(6);
 
-        // Prints out a serialized tree which might look like "4,3,5,nil,nil,nil,6"
+        // Prints out a serialized tree which might look like "4,3,5,nil,nil,nil,6""
         // The actual output will depend on the pattern you use to serialize the tree
         String s1 = tree.serialize();
         System.out.println(s1);
